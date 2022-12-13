@@ -29,7 +29,7 @@ abuse,
 var wordsArray = words.split(",");
 
 function changeText(){
-    text.innerHTML = wordsArray[Math.floor(Math.random() *  wordsArray.length)];
+    text.innerHTML = wordsArray[Math.floor(Math.random() *  wordsArray.length -1)];
 }
 
 
